@@ -17,10 +17,10 @@
 
           <div class="form-group" style="display:inline; margin:20px">
             <div class="input-group">
-              <input class="form-control input-lg" name="candidateName">
+              <input class="form-control input-lg" id='candidate-form' name="candidateName">
               </input>
               <span class="input-group-btn">
-                <button type="submit" class="btn btn-primary btn-lg">Add Candidate</button>
+                <button type="submit" id='candidate-form-button' class="btn btn-primary btn-lg">Add Candidate</button>
               </span>
             </div>
           </div>
@@ -108,9 +108,10 @@
         })
 
 
-        $('form').on('submit',function(event){
+        $('#candidate-form-button').on('click',function(event){
+          console.log('#candidate-form pressed')
           event.preventDefault();
-          contract.setCandidate($('input').val());
+          contract.setCandidate($('#candidate-form').val());
         });
 
       })
