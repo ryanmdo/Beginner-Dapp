@@ -111,12 +111,12 @@
 
 
         $('#candidate-form-button').on('click',function(event){
-          console.log('#candidate-form pressed with form input: '+$('#candidate-form').val())
           event.preventDefault();
           contract.setCandidate($('#candidate-form').val(),function(error, response){
             if(error){
               console.log(error);
             }
+            console.log('#candidate-form pressed with form input: '+$('#candidate-form').val())
             console.log(response);
 
           });
