@@ -1,0 +1,53 @@
+[33mcommit c987af52e39af2cdbbb1dbb458dbee662fec639d[m
+Author: rdo <ryan@libertylearner.com>
+Date:   Fri Apr 27 22:21:01 2018 -0700
+
+    it's working!
+
+[33mcommit 271b393b1d2a4a3365aa0b81b1db9a39d6a0d7ab[m
+Author: rdo <ryan@libertylearner.com>
+Date:   Fri Apr 27 21:59:29 2018 -0700
+
+    made setCandidate an async function
+
+[33mcommit 13d7b4b8f1d2877554df2328a3c69bef4cffa1b4[m
+Author: rdo <ryan@libertylearner.com>
+Date:   Fri Apr 27 21:15:19 2018 -0700
+
+    setCandidate log updated
+
+[33mcommit 30e9d0a072a4f4c9f0162b13e709c100824a5a6b[m
+Author: rdo <ryan@libertylearner.com>
+Date:   Fri Apr 27 21:07:24 2018 -0700
+
+    ropsten contract added
+
+[33mcommit c6a1bfb3afa6b2f099267cb7df951367049d340e[m
+Author: rdo <ryan@libertylearner.com>
+Date:   Tue Apr 24 22:20:19 2018 -0700
+
+    preparing to put contract onto ethereum chain
+
+[33mcommit 5fa96de93dc3c1d1def8b6e90aa851f9fc0f78d2[m
+Author: rdo <ryan@libertylearner.com>
+Date:   Tue Apr 24 11:59:09 2018 -0700
+
+    setCandidate button now works
+
+[33mcommit 80157d96e3b622afe5a03cce689d7cd7f17467b1[m
+Author: rdo <ryan@libertylearner.com>
+Date:   Tue Apr 24 11:53:48 2018 -0700
+
+    Arnold Schwarzenegger has appeared as candidate = success
+
+[33mcommit 6b2a9ca2b1ea56221ae5ff077e44ad744d348193[m
+Author: rdo <ryan@libertylearner.com>
+Date:   Mon Apr 23 22:01:29 2018 -0700
+
+    repo init and libraries connected
+
+[33mcommit c2c8db99368eba3f07701446bf7cef7d5ddc3b44[m
+Author: ryanmdo <ryan@libertylearner.com>
+Date:   Mon Apr 23 20:57:43 2018 -0700
+
+    Initial commit

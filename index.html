@@ -44,13 +44,16 @@
     <script src="./js/bootstrap.min.js" charset="utf-8"></script>
     <script src="./js/web3.min.js" charset="utf-8"></script>
     <script>
+
+      console.log('<script>')
+
       if(typeof web3!= 'undefined'){
         web3= new Web3(web3.currentProvider);
       }else{
         web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
       }
 
-
+      console.log(web3.eth)
       web3.eth.defaultAccount = web3.eth.accounts[0];
 
       var contractAbi = [
@@ -98,7 +101,7 @@
 
       $(document).ready(function(){
 
-
+        console.log("$(document).ready(function(){....} IS BEING EXECUTED")
         console.log(web3.version)
 
         contract.candidateName(function(error, response){
