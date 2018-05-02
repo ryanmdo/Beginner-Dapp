@@ -4,3 +4,8 @@ This is an incredibly basic candidate application deployed onto the Ropsten test
 
 ### Deployment
 This application is deployed on the Ropsten network and the page to interface with it is [deployed on github pages](https://ryanmdo.github.io/Beginner-Dapp/)
+
+### Demonstration
+
+You should be able to see the current candidate if you are connected to the Ropsten testnet via Metamask.
+![Screenshot of the application](./img/metamask.png)
