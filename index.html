@@ -45,7 +45,10 @@
     <script src="./js/web3.min.js" charset="utf-8"></script>
     <script>
 
-      console.log('<script>')
+      console.log('<script> RUNNING, Importing the contracts deployed on the Ropsten testnet')
+
+      //this was copied straight from web3, I gotta understand how to work with
+      //it for error management
 
       if(typeof web3!= 'undefined'){
         web3= new Web3(web3.currentProvider);
@@ -53,7 +56,15 @@
         web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
       }
 
-      console.log(web3.eth)
+
+
+      //Right here, I am just figuring out that the browsers is communicating
+      //with metamask, and getting its account information.
+      //It works well on github, but not when I run the site locally just off
+      //index.html
+
+      console.log('web3 OBJECT ------------------------------------------------')
+      console.log(web3)
       web3.eth.defaultAccount = web3.eth.accounts[0];
 
       var contractAbi = [
@@ -93,8 +104,11 @@
 	}
 ];
 
-      var contractAddress='0x9eAcbC05a38015F3874eBd827feD5f52Ab875206';
 
+
+      //When the Election.sol contract was published, this was its address
+
+      var contractAddress='0x9eAcbC05a38015F3874eBd827feD5f52Ab875206';
       var contract = web3.eth.contract(contractAbi).at(contractAddress);
 
 
