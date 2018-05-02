@@ -109,7 +109,10 @@
       //When the Election.sol contract was published, this was its address
 
       var contractAddress='0x9eAcbC05a38015F3874eBd827feD5f52Ab875206';
+
       var contract = web3.eth.contract(contractAbi).at(contractAddress);
+      console.log('CONTRACT OBJECT')
+      console.log(contract)
 
 
 
