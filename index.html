@@ -65,6 +65,9 @@
 
       console.log('web3 OBJECT ------------------------------------------------')
       console.log(web3)
+
+      console.log('web3.eth.accounts:')
+      console.log(web3.eth.accounts)
       web3.eth.defaultAccount = web3.eth.accounts[0];
 
       var contractAbi = [
@@ -113,6 +116,8 @@
       var contract = web3.eth.contract(contractAbi).at(contractAddress);
       console.log('CONTRACT OBJECT')
       console.log(contract)
+
+
 
 
 
